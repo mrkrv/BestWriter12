@@ -1,0 +1,12 @@
+.bg-nav {
+    background-color: white;
+}
+.bg-nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.bg-nav a{
+    color: green;
+    text-decoration: underline double blue;
+}
