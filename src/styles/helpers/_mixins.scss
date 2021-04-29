@@ -6,3 +6,8 @@
     border: solid 3px black;
     border-top: double;
 }
+@mixin font($size:15px,$font:$p-font,$color:white) {
+    font-size: $size;
+    font-family: $font;
+    color: $color;
+}

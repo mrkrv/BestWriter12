@@ -1,0 +1,19 @@
+.banner {
+    background: #fff url(../img/banner.png);
+    background-size: cover;
+}
+.heading {
+    filter: drop-shadow(2px 2px 2px $base-color);
+    span {
+        background-color: $light-color;
+        @include font(32px,$font-r,$middle-color);
+        display: block;
+        padding: 20px 0 20px 55px;
+    }
+    .d7 {
+        width: 0; 
+        height: 0;
+        border-top: 30px solid $light-color;
+        border-right: 35px solid transparent;
+        }
+}
